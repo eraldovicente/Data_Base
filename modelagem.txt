@@ -1,0 +1,31 @@
+    O cliente Tera Comércio de produtos S.A., solicitou a modelagem 
+um banco de dados para cadastro dos seus clientes.
+    A função da Unidados é a análise dos requesitos junto aos usuários 
+para a correta construção do produto. O cliente deseja que inicialmente
+os scripts sejam construídos para o banco de dados MySQL, porém, posteriormente
+pode haver mudança no ambiente e consequentemente adaptação dos scripts
+para outros produtos de SGBD. 
+    O cliente não quer nenhuma informação relativa à vendas ou estoque,
+desejando somente as informações promárias de clientes.
+
+/* Modelagem Básica - Entidade = Tabela*/
+
+Cliente
+
+Nome - CARACTER(30)
+CPF - NUMERICO(11)
+Email - CARACTER(30)
+Telefone - CARACTER(30)
+Endereço - CARACTER(100)
+Sexo - CARACTER(1)
+
+/* Processos de modelagem */
+
+/* Fase 01 e fase 02 - AD adm. de dados*/
+
+-Modelagem conceitual - rascunho
+-Modelagem lógica - qualquer programa de modelagem
+
+/* Fase 03 - DBA / AD */
+
+-Modelagem física - Scripts de banco
